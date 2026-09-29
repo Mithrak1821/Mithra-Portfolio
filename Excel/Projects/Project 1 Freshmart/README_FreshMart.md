@@ -88,7 +88,7 @@ It contains:
 -   Five business-question-driven charts
 -   A compact one-page management layout
 
-![FreshMart COO Dashboard](FreshMart_COO_Dashboard.png)
+![FreshMart Dashboard](Dashboard/Dashboard_Freshmart.png)
 
 ### Dashboard Filters
 
