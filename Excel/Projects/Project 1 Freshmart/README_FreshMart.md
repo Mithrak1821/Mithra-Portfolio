@@ -88,7 +88,7 @@ It contains:
 -   Five business-question-driven charts
 -   A compact one-page management layout
 
-![FreshMart Dashboard]("C:\Users\mithr\OneDrive\ANUDIP Training\Mithra K (batch 3)\Excel\Projects\Project 1 Freshmart\Dashboard\Freshmart_Dashboard.png")
+![FreshMart Dashboard](Dashboard/Freshmart_Dashboard.png)
 
 ### Dashboard Filters
 
