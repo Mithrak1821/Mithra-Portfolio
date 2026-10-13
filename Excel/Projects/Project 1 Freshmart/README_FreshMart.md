@@ -50,39 +50,18 @@ in Microsoft Excel.
 
 ### Workbook Structure
 
-  -----------------------------------------------------------------------
-  Sheet                               Purpose
-  ----------------------------------- -----------------------------------
-  `Sales_Transactions`                Cleaned transaction-level source
-                                      data used for analysis
-
-  `sales`                             Consolidated transaction data with
-                                      product, store, customer, employee
-                                      and year attributes
-
-  `Stores`                            Store details including region,
-                                      city, store type, monthly target
-                                      and status
-
-  `Products`                          Product, category, subcategory,
-                                      brand, price and supplier details
-
-  `customers`                         Customer details including
-                                      membership information
-
-  `Employees`                         Employee and store-assignment
-                                      information
-
-  `Suppliers`                         Supplier reference information
-
-  `PVT_executive`                     Executive KPI calculations
-
-  `PVT_Analysis`                      Supporting PivotTable analysis for
-                                      trends, stores, products,
-                                      membership, channels and returns
-
- 
-  -----------------------------------------------------------------------
+| Sheet | Purpose |
+| --- | --- |
+| `Sales_Transactions` | Cleaned transaction-level source data used for analysis |
+| `sales` | Consolidated transaction data with product, store, customer, employee and year attributes |
+| `Stores` | Store details including region, city, store type, monthly target and status |
+| `Products` | Product, category, subcategory, brand, price and supplier details |
+| `customers` | Customer details including membership information |
+| `Employees` | Employee and store-assignment information |
+| `Suppliers` | Supplier reference information |
+| `PVT_executive` | Executive KPI calculations |
+| `PVT_Analysis` | Supporting PivotTable analysis for trends, stores, products, membership, channels and returns |
+| `COO dashboard` | Final management-facing Excel dashboard |
 
 The cleaned transaction data contains **2,500 transaction records**. The
 `Sales_Transactions` sheet contains **18 transaction-level analytical
@@ -109,7 +88,7 @@ It contains:
 -   Five business-question-driven charts
 -   A compact one-page management layout
 
-![FreshMart COO Dashboard](Dashboard/FreshMart_Dashboard.png)
+![FreshMart Dashboard](Dashboard/Freshmart_Dashboard.png)
 
 ### Dashboard Filters
 
@@ -327,11 +306,11 @@ returned transactions**.
 Sales-channel performance is available in the supporting PivotTable
 analysis.
 
-  Sales Channel             Sales         Profit   Transaction Records
-  --------------- --------------- -------------- ---------------------
-  In-Store          ₹19,69,380.30   ₹5,04,060.82                 1,738
-  Online             ₹6,12,494.35   ₹1,59,190.44                   525
-  Mobile App         ₹2,86,557.95     ₹74,107.63                   237
+| Sales Channel | Sales | Profit | Transaction Records |
+| --- | ---: | ---: | ---: |
+| In-Store | ₹19,69,380.30 | ₹5,04,060.82 | 1,738 |
+| Online | ₹6,12,494.35 | ₹1,59,190.44 | 525 |
+| Mobile App | ₹2,86,557.95 | ₹74,107.63 | 237 |
 
 ------------------------------------------------------------------------
 
